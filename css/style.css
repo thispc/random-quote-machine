@@ -1,0 +1,68 @@
+
+body {
+	background: #333;
+	color: #fff;
+}
+
+	.container {
+		width: 45%;
+		margin: 140px auto;
+		position: relative;
+	}
+
+	blockquote {
+		width: auto;
+		font: 2.65em CallunaRegular;
+		letter-spacing: .075em;
+		float: left;
+		padding: 45px 0 30px 25px;
+		margin: 0;
+		border-top: 2px dotted #858585;
+		border-bottom: 2px dotted #858585;
+		-webkit-transform: rotate(-3deg);
+		-moz-transform: rotate(-3deg);
+	}
+
+	.container:before {
+		content: "“";
+		font-size: 13em;
+		position: absolute;
+		left: -100px;
+		color: #666;
+	}
+
+	.container:after {
+		content: "”";
+		font-size: 13em;
+		position: absolute;
+		right: -100px;
+		top: 150px;
+		color: #666;
+	}
+
+		blockquote:first-line {
+			font: 1.85em "Sketch Block";
+			color: #fff79e;
+		}
+
+		
+
+		
+
+	
+
+		blockquote + b {
+			float: right;
+			margin-top: 10px;
+			font: 1.6em CallunaRegular;
+			letter-spacing: .15em;
+		}
+
+		blockquote + b:first-letter {
+			color: #fff79e;
+			font-size: 1.3em;
+			font-style: italic;
+			letter-spacing: .25em;
+		}
+    .
+	
